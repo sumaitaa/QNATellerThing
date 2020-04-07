@@ -1,0 +1,172 @@
+body{
+    font-family: "Algerian Regular", sans-serif;
+     background-image: url(background.gif);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+#intro{
+    background-color:aliceblue;
+    border-radius: 20px;
+    background-size: 200px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #2294a8;
+    border: 5px ridge #2294a8;
+    margin: 15px;
+}
+
+#container-1{
+    background-color: #dcc7ff;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+    right: 420px;
+    position: absolute;
+    border: 10px ridge #3e3154;
+}
+
+#ask{
+    font-family: "Oswald Regular", fantasy;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 1px 5px #6e5696;
+}
+
+#askButton{
+    font-family: "Oswald Regular", fantasy;
+    background-color:#3e3154;
+    color: #b0a6bf;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+#askButton:hover {
+    font-family: "Oswald Regular", fantasy;
+    background-color:#604d82;
+    color: #7f67ab;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+
+#askButton:active {
+    font-family: "Oswald Regular", fantasy;
+    background-color:#7f67ab;
+    color: #645187;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+#result{
+    font-family: "Oswald Regular", fantasy;
+    color: #ffffff;
+    text-align: center;
+    margin: 25px;
+    text-shadow: 2px 1px 5px #070a5c;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+#credits-container{
+    text-align: center;
+      font-family: "Oswald Regular", fantasy;
+    color: #2294a8;
+    position:absolute;
+   
+}
+
+#credits-button{
+    font-family: "Oswald Regular", fantasy;
+    background-color: aliceblue;
+    color: #2294a8;
+    position: absolute;
+    left: 483px;
+    top: 630px;
+    font-size: 20px;
+    width: 215px;
+    border-radius: 5px;
+    border: solid 2px #2294a8;
+    
+}
+#credits-button:hover {
+    font-family: "Oswald Regular", fantasy;
+    background-color: #e0faff;
+    color: #449ead;
+    position: absolute;
+    left: 483px;
+    top: 630px;
+    font-size: 20px;
+    width: 215px;
+    border-radius: 5px;
+    border: solid 2px #2294a8;
+    cursor: pointer;
+}
+#credits-button:active {
+    font-family: "Oswald Regular", fantasy;
+    background-color: #92edfc;
+    color: #2fc6e0;
+    position: absolute;
+    left: 483px;
+    top: 630px;
+    font-size: 20px;
+    width: 215px;
+    border-radius: 5px;
+    border: solid 2px #2294a8;
+}
+
+#the-credits{
+    position: absolute;
+    left: 290px;
+    top: 700px;
+    width: 600px;
+    font-size: 25px;
+    visibility:hidden;
+}
+
+#more-credits{
+     background-color: aliceblue;
+    border-radius: 10px;
+    border: dashed 2px #2294a8;
+}
+
+#close-credits-button{
+    font-family: "Oswald Regular", fantasy;
+    background-color: aliceblue;
+    color: #2294a8;
+    position: absolute;
+    left: 230px;
+    top: 350px;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 5px;
+    border: solid 2px #2294a8;
+}
+#close-credits-button:hover {
+    font-family: "Oswald Regular", fantasy;
+    background-color: #e0faff;
+    color: #449ead;
+    position: absolute;
+    left: 230px;
+    top: 350px;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 5px;
+    border: solid 2px #2294a8;
+}
+#close-credits-button:active {
+    font-family: "Oswald Regular", fantasy;
+    background-color: #92edfc;
+    color: #2fc6e0;
+    position: absolute;
+    left: 230px;
+    top: 350px;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 5px;
+    border: solid 2px #2294a8;
+}
